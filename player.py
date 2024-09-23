@@ -20,6 +20,6 @@ class Player:
             obj.writerow(data)
 
 
-#if "__name__" == "__main__":
-player1 = Player("Kofi")
-player1.weakness("Accra")
+if __name__ == "__main__":
+    player1 = Player("Kofi")
+    player1.weakness("USA")
